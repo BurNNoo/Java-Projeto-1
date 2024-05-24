@@ -8,3 +8,4 @@ function draw() {
   stroke("white");
   if (mouseIsPressed)
   circle(mouseX, mouseY,30, 50);
+}
