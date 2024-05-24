@@ -6,6 +6,7 @@ function setup() {
 function draw() {
   fill("gray");
   stroke("white");
-  if (mouseIsPressed)
-  circle(mouseX, mouseY,30, 50);
+  if (mouseIsPressed){
+  circle(mouseX, mouseY,30);
+}
 }
